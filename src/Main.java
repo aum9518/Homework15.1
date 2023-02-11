@@ -8,9 +8,9 @@ public class Main {
         Person person = new Person();
 
         Programmer programmer = new Programmer();
-        System.out.println(programmer.getName());
+        System.out.println("Name: "+programmer.getName());
         Programmer.setAge(33);
-        System.out.println(Programmer.getAge());
+        System.out.println("Age: "+Programmer.getAge());
         programmer.working();
 
         Driver driver = new Driver();
