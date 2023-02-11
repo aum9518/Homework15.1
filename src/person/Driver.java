@@ -1,2 +1,8 @@
-package person;public class Driver {
+package person;
+
+public class Driver extends Programmer{
+    @Override
+    public void working() {
+        System.out.println("driving hole day...");
+    }
 }
